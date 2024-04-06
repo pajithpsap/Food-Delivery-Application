@@ -38,3 +38,5 @@ To get started with the project, follow these steps:
  * Order Items: Users can select and order items from the menu.
  * Add to Cart: Selected items can be added to the cart for checkout.
  * Generate Bill: The application generates a bill for the selected items in the cart
+
+## Deployment Link : https://foodelreact.netlify.app/
