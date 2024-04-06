@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tomato</title>
+    <style>
+      /* Custom CSS to hide the WebKit scrollbar */
+      .hide-scrollbar::-webkit-scrollbar {
+        display: none;
+      }
+      .grid-cols-auto-minmax {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      }
+      .place-order .left-place-order input{
+        margin-bottom: 15px;
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #c5c5c5;
+        border-radius: 4px;
+        outline-color: tomato;
+      }
+
+      .left-place-order .multi-fields{
+        display: flex;
+        gap: 10px;
+      }
+    </style>
+  </head>
+  <body class="min-h-lvh font-outfit">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
